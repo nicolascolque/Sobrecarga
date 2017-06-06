@@ -1,5 +1,5 @@
+public class Calculadora extends Display
 
-public class Calculadora 
 {
  public int suma (int a , int b)
  {
@@ -30,5 +30,14 @@ public class Calculadora
 	}
 	 
 	 return acumulador;
+ }
+ 
+ public void mostrarresultado(int a)
+ {
+	 pantalla (String.valueOf(a));
+ }
+ public void mostrarresultado(double a)
+ {
+	 pantalla (String.valueOf(a));
  }
 }
